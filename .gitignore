@@ -1,0 +1,14 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# General
+*.log
+*.tmp
+*.bak
+.DS_Store
